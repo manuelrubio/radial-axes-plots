@@ -3,7 +3,7 @@
 % MIT License
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Copyright 2021 Manuel Rubio-Sánchez
+% Copyright 2021 Manuel Rubio-SÃ¡nchez
 
 % Permission is hereby granted, free of charge, to any person obtaining a 
 % copy of this software and associated documentation files (the "Software"),
@@ -146,12 +146,12 @@ for i=1:4
     alpha = xe'*xe;
 
 
-    gradient = compute_gradient(w,a,b,C,D,alpha);
+    gradient = compute_gradient(w,a,C,D,xe); % compute_gradient_old(w,a,b,C,D,alpha);
     while norm(gradient)>EPSILON
         w_old = w;
         w = w - step*gradient;
-        gradient = compute_gradient(w,a,b,C,D,alpha);
-    end    
+        gradient = compute_gradient(w,a,C,D,xe); %compute_gradient_old(w,a,b,C,D,alpha);
+    end     
     
     Ve = [V; w'];   
     
