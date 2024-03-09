@@ -1,0 +1,8 @@
+README.md
+setup.py
+calculate_mapping/__init__.py
+calculate_mapping/mapping.py
+calculate_mapping.egg-info/PKG-INFO
+calculate_mapping.egg-info/SOURCES.txt
+calculate_mapping.egg-info/dependency_links.txt
+calculate_mapping.egg-info/top_level.txt
