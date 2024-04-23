@@ -16,14 +16,14 @@ according to several data visualization techniques based on a set of radial axes
                is previously normalized so that sum of the rows of X is
                equal to 1. This generates a nonlinear mapping.
 
-       [2] HOFFMAN P., GRINSTEIN G., MARX K., GROSSE I., STANLEY E.: DNA 
+[2] HOFFMAN P., GRINSTEIN G., MARX K., GROSSE I., STANLEY E.: DNA 
          visual and analytic data mining. In Proceedings of the 8th 
          conference on Visualization'97 (Los Alamitos, CA, USA, 1997), 
          VIS'97, IEEE Computer Society Press, pp. 437-441. 
         [doi:10.1109/VISUAL.1997.663916](https://ieeexplore.ieee.org/document/663916). 
 
-       [3] RUBIO-SÁNCHEZ M., RAYA L., DÍAZ F., SANCHEZ A.: A comparative
-         study between radviz and star coordinates. IEEE Transactions on 
+[3] RUBIO-SÁNCHEZ M., RAYA L., DÍAZ F., SANCHEZ A.: A comparative
+         study between RadViz and Star Coordinates. IEEE Transactions on 
          Visualization and Computer Graphics 22, 1 (Jan 2016), 619-628.
          [doi:10.1109/TVCG.2015.2467324](https://ieeexplore.ieee.org/document/7192699).
 		 
