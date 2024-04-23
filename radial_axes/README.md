@@ -1,22 +1,18 @@
 # radial_axes
 
-***
-
-## Description
-
 Code in Matlab, R, and Python for computing low-dimensional point representations of high-dimensional numerical data
 according to several data visualization techniques based on a set of radial axes. The implemented methods are:
 
-     + *'SC'*: **Star Coordinates**. A basic linear mapping.
++ *'SC'*: **Star Coordinates**. A basic linear mapping.
 
        [1] KANDOGAN E.: Star coordinates: A multi-dimensional
          visualization technique with uniform treatment of dimensions. In
          Proceedings of the IEEE Information Visualization Symposium, 
          Late Breaking Hot Topics (2000), pp. 9-12.
 		 
-     &nbsp;
+&nbsp;
 
-     + *'RADVIZ'*: **RadViz**. Similar to Star Coordinates, but the (non-negative) data 
++ *'RADVIZ'*: **RadViz**. Similar to Star Coordinates, but the (non-negative) data 
                is previously normalized so that sum of the rows of X is
                equal to 1. This generates a nonlinear mapping.
 
@@ -31,9 +27,9 @@ according to several data visualization techniques based on a set of radial axes
          Visualization and Computer Graphics 22, 1 (Jan 2016), 619-628.
          [doi:10.1109/TVCG.2015.2467324](https://ieeexplore.ieee.org/document/7192699).
 		 
-     &nbsp;
+&nbsp;
 
-     + *'BIPLOT'*: **Principal component biplots**. A generalization of Principal
++ *'BIPLOT'*: **Principal component biplots**. A generalization of Principal
      Component Analysis.
 
        [4] GABRIEL K. R.: The biplot graphic display of matrices with 
@@ -41,10 +37,9 @@ according to several data visualization techniques based on a set of radial axes
          (Dec 1971), pp. 453--467. 
 		 [doi:10.1093/biomet/58.3.453](https://academic.oup.com/biomet/article-abstract/58/3/453/233361).
 
-     &nbsp;
+&nbsp;
 
-     + *'ARA'*: **Adaptable radial axes plots**. A hybrid approach between Star
-     coordinates and biplots.
++ *'ARA'*: **Adaptable radial axes plots**. A hybrid approach between Star coordinates and biplots.
 
        [5] RUBIO-SÁNCHEZ M., SANCHEZ A., LEHMANN D. J.: Adaptable radial
          axes plots for improved multivariate data visualization.
