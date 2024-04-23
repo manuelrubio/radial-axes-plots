@@ -32,10 +32,10 @@ according to several data visualization techniques based on a set of radial axes
 + **Principal component biplots**. A generalization of Principal
      Component Analysis.
 
-    [4] GABRIEL K. R.: The biplot graphic display of matrices with 
+  [4] GABRIEL K. R.: The biplot graphic display of matrices with 
          application to principal component analysis. Biometrika 58, 3 
-         (Dec 1971), pp. 453--467. 
-		 [doi:10.1093/biomet/58.3.453](https://academic.oup.com/biomet/article-abstract/58/3/453/233361).
+         (Dec 1971), pp. 453--467.
+         [doi:10.1093/biomet/58.3.453](https://academic.oup.com/biomet/article-abstract/58/3/453/233361).
 
 &nbsp;
 
