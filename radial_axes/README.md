@@ -1,9 +1,9 @@
 # radial_axes
 
-Code in Matlab, R, and Python for computing low-dimensional point representations of high-dimensional numerical data
+Code in **Matlab**, **R**, and **Python** for computing low-dimensional point representations of high-dimensional numerical data
 according to several data visualization techniques based on a set of radial axes. The implemented methods are:
 
-+ *'SC'*: **Star Coordinates**. A basic linear mapping.
++ **Star Coordinates**. A basic linear mapping.
 
        [1] KANDOGAN E.: Star coordinates: A multi-dimensional
          visualization technique with uniform treatment of dimensions. In
@@ -12,7 +12,7 @@ according to several data visualization techniques based on a set of radial axes
 		 
 &nbsp;
 
-+ *'RADVIZ'*: **RadViz**. Similar to Star Coordinates, but the (non-negative) data 
++ **RadViz**. Similar to Star Coordinates, but the (non-negative) data 
                is previously normalized so that sum of the rows of X is
                equal to 1. This generates a nonlinear mapping.
 
@@ -29,7 +29,7 @@ according to several data visualization techniques based on a set of radial axes
 		 
 &nbsp;
 
-+ *'BIPLOT'*: **Principal component biplots**. A generalization of Principal
++ **Principal component biplots**. A generalization of Principal
      Component Analysis.
 
        [4] GABRIEL K. R.: The biplot graphic display of matrices with 
@@ -39,7 +39,7 @@ according to several data visualization techniques based on a set of radial axes
 
 &nbsp;
 
-+ *'ARA'*: **Adaptable radial axes plots**. A hybrid approach between Star coordinates and biplots.
++ **Adaptable radial axes plots**. A hybrid approach between Star coordinates and biplots.
 
        [5] RUBIO-SÁNCHEZ M., SANCHEZ A., LEHMANN D. J.: Adaptable radial
          axes plots for improved multivariate data visualization.
