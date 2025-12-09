@@ -215,20 +215,8 @@ else if strcmp(algorithm,'RadViz')
                                 P(I(1:N-1),:)*V(k,:)' <= P(I(2:N),:)*V(k,:)'
 
                             cvx_end 
-                            
-                            A = P*V'-X;
-                            val = 0;
-                            for i=1:n
-                                for j=1:N
-                                    if abs(A(j,i))>val
-                                        val = abs(A(j,i));
-                                    end
-                                end
-                            end
-                            
-                            stop = 1;
+							
                     end        
-
                 end            
             end            
         end
@@ -239,6 +227,7 @@ end
 
 
             
+
 
 
 
